@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>首页</title>
+    <script src="../js/jquery.min.js"></script>
+    <!--<script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>-->
+    <script src="../js/vue.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/normalizeBG.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/BG.css">
+    <link rel="stylesheet" href="../css/stylesBG.css">
+    <link rel="stylesheet" type="text/css" href="../css/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <script type="text/javascript" src="../js/modernizr.custom.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="../css/nav.css">
+    <link type="text/css" rel="stylesheet" href="../css/book.css">
+    <link href="../css/comment_reset.css" rel="stylesheet">
+    <script src="../js/xml.js"></script>
+    <style>
+        .main2{
+            width: 800px;
+            margin:20px auto;
+        }
+        span{
+            display: inline-block;
+            width: 200px;
+            height: 25px;
+            line-height: 25px;
+            vertical-align: center;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        .tag{
+            font-size: 13px;
+            margin-left: 370px;
+            vertical-align: bottom;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        .text{
+            width: 750px;
+            height: 180px;
+            margin:0 auto;
+
+            resize:none;
+        }
+
+        #ipt{
+            display: inline-block;
+            width: 80px;
+            height: 50px;
+            background: #00cc99;
+            border: 0;
+            margin-left: 670px;
+            margin-top: 10px;
+        }
+        .creatediv{
+            width: 675px;
+            height: 80px;
+
+            border: 1px solid gray;
+            position: relative;
+            margin-top: 10px;
+            padding-left: 75px;
+        }
+        .createinput{
+            width: 80px;
+            height: 30px;
+            position:absolute;
+            right: 5px;
+            bottom:5px;
+        }
+        .createimg{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+        .createdivs{
+            width:600px;
+            height:50px;
+            position: absolute;
+            top: 15px;
+            left: 85px;
+        }
+
+        .book-image {
+            width: 80px;
+            height: 100px;
+        }
+
+        .search-input__btn {
+            display: block;
+            line-height: 36px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            border-left: 1px solid #ddd;
+            padding: 0 8px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .book-h5__cover {
+            float: left;
+            position: relative;
+            width: 80px;
+            height: 100px;
+            background-color: #eeece9;
+            border: 1px solid #f0f0f0;
+            border-radius: 1px;
+            overflow: hidden;
+        }
+
+        .search-input {
+            position: relative;
+            margin: 5px 20px 5px 42px;
+            height: 35px;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+        }
+
+        .search-input .search-input__mi {
+            background: url(http://image.read.duokan.com/mfsv2/download/s010/p01TjruXIhgt/PP13pEqhpChuay.png) no-repeat center;
+            background-size: 16px 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="ue-bar">
+    <div class="ue-bar-warp">
+        <div class="ue-bar-logo">
+            <a href="#">
+                <img src="../img/logo.png" width="51" hegith="20" alt="解忧书屋" title="解忧书屋">
+            </a>
+        </div>
+        <div class="ue-bar-nav">
+            <ul>
+                <li class="active"><a href="./main.html">
+                    <em>首页</em>
+                </a></li>
+                <li><a href="./custombookList.html">
+                    <em>自定义书店</em>
+                </a></li>
+                <li><a href="http://localhost:3001/">
+                    <em>聊天</em>
+                </a></li>
+                <li ><a href="./leaveWords.html">
+                    <em>解忧书信</em>
+                </a></li>
+                <li><a href="http://localhost:8080/#/admin/articleList">
+                    <em>我的博客</em>
+                </a></li>
+                <li><a href="./mine.html">
+                    <em>个人中心</em>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="main" id="slide-show">
+    <div class="fs-slider" id="fs-slider">
+        <figure>
+            <img src="../image/1.jpg" alt="image01"/>
+            <figcaption>
+                <h3>生变录1</h3>
+                <p>你不知道明天会发生什么，未来会怎样，但是你可以决定你现在的态度和状态，是站着还是跪着面对未来的挑战。 </p>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="../image/2.jpg" alt="image02"/>
+            <figcaption>
+                <h3>生变录2</h3>
+                <p>逃避和放纵很容易，难的是一步一个脚印向着自己的期许前行，难的是在孤立无援时保持清醒和理智，驾驭自己。 </p>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="../image/3.jpg" alt="image03"/>
+            <figcaption>
+                <h3>生变录3</h3>
+                <p>对自己真实的人，才会真诚待人接物，真实就是不做作、不卑不亢，活在自己的世界里，有强大的气场。</p>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="../image/4.jpg" alt="image04"/>
+            <figcaption>
+                <h3>生变录4</h3>
+                <p>很多时候起点就预示着终点的距离和高度，你在开始时就输了，走远了，再追会更难。</p>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="../image/5.jpg" alt="image05"/>
+            <figcaption>
+                <h3>生变录5</h3>
+                <p>比能力更重要的是态度，比态度更重要的是人格与精神，比趋势更重的是习惯，而比之更甚的是细节。</p>
+            </figcaption>
+        </figure>
+    </div><!-- /fs-slider -->
+</div>
+
+<script type="text/javascript" src="../js/jquery.imgslider.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('#fs-slider').imgslider();
+    });
+</script>
+
+<div id="bookInfo" style="display: none; width:734px;overflow:hidden">
+    <div class="container">
+        <section class="main-card" style="border-bottom:none">
+            <div class="u-book -detail">
+                <div class="book-cover">
+                    <img id="bookInfo_img">
+                </div>
+                <div class="group-form">
+                    <h5 class="title" id="bookInfo_title">书名:</h5>
+                    <p class="author">
+                    <h4 class="author" id="bookInfo_press">出版社:</h4>
+                    </p>
+                    <h4 class="price" id="bookInfo_price">价格:</h4>
+                    <h4 class="price" id="bookInfo_isbn">价格:</h4>
+                    <h4 id="bookInfo_description">描述</h4>
+                    <h4 id="bookInfo_username">店主</h4>
+                    <h4 id="bookInfo_telephone">店主手机</h4>
+                    <h4 id="bookInfo_address">店主宿舍</h4>
+
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<div class="main2" id ="comment" style="display: none">
+    <span>你想对楼主说点什么</span>
+    <span class="tag">你最多可以输入30个字符</span>
+    <textarea id="text" cols="30" rows="10" maxlength="30" class="text"></textarea><br>
+    <input type="button" value="发布" id="ipt">
+    <div id="txt" >
+    </div>
+</div>
+
+
+<script>
+    var ipt = document.getElementById("ipt");
+    var txt = document.getElementById('txt');
+    var textarea = document.getElementById("text");
+    ipt.onclick = function(){
+        var textValue = textarea.value.LTrim();
+        textarea.value="";
+        if(textValue.length>0 ){
+            var divs = document.createElement("div");
+            var imgs = document.createElement("img");
+            var ps = document.createElement("p");
+            var inputs = document.createElement("input");
+            divs.setAttribute("class","creatediv");
+            imgs.setAttribute('class',"createimg");
+            ps.setAttribute("class","createdivs");
+            inputs.setAttribute("class","createinput");
+            imgs.src="pic/1.jpg";
+            inputs.type="button";
+            inputs.value="删除";
+            ps.innerHTML=textValue;
+            divs.appendChild(imgs);
+            divs.appendChild(ps);
+            divs.appendChild(inputs);
+            if(txt.children.length==0){
+                txt.appendChild(divs);
+
+            }else{
+                txt.insertBefore(divs,get_firstChild(txt))
+            }
+            inputs.onclick = function(){
+                this.parentNode.parentNode.removeChild(this.parentNode)
+            }
+        }
+    }
+</script>
+
+<script>
+    var showBookInfo = function (book) {
+        document.getElementById("bookInfo_img").src = book.bookImage;
+        // var bookInfo_title_str = $("#bookInfo_title").val() + book.bookName;
+        document.getElementById("bookInfo_title").innerHTML = "书名:" + book.bookName;
+
+        // var bookInfo_press_str = $("#bookInfo_press").val() + item.bookPress;
+        document.getElementById("bookInfo_press").innerHTML = "出版社:" + book.bookPress;
+        document.getElementById("bookInfo_price").innerHTML = "价格:" + book.price;
+        document.getElementById("bookInfo_isbn").innerHTML = "ISBN:" + book.bookISBN;
+        document.getElementById("bookInfo_description").innerHTML = "描述:" + book.bookDescription;
+
+        $.ajax({
+            type: 'POST',
+            url: "http://127.0.0.1:8081/user/getUserById",
+            data: JSON.stringify({
+                data: book.userId
+            }),
+            dataType: "JSON",
+            contentType: 'application/json;charset=utf-8',
+            success: function (data) {
+                console.log(data);
+                document.getElementById("bookInfo_username").innerHTML = "店主:" + data.userLabel;
+                document.getElementById("bookInfo_telephone").innerHTML = "店主手机:" + data.telephone;
+                document.getElementById("bookInfo_address").innerHTML = "店主宿舍:" + data.address;
+
+            },
+            error: function (jqXHR) {
+                return "哎呀呀，出错了" + jqXHR.status;
+            }
+        });
+
+    }
+</script>
+
+
+<div id="app" class="container body-content">
+
+    <div class="search">
+
+        <div class="top">
+            <a href="javascript:history.back()" class="top__back"></a>
+            <div id="search-input" class="search-input"><b class="search-input__mi"></b>
+                <input type="text" class="form-control" value="" id="search_box" placeholder="输入书名">
+                <button class="search-input__btn" @click="doSearch">搜索</button>
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+
+
+        <div id="custom_book_list">
+
+
+            <ul class="list-group">
+                <li class="list-group-item" id="book-list-item" v-for="(item,index) in bookList" :key="index">
+                    <!-- :item="item"
+                     :index="index"-->
+                    <div class="book-h5" @click="getOneBookInfo(item)">
+                        <div class="book-h5__cover">
+                            <img class="book-image" alt="{{ item.bookName }}" :src="item.bookImage">
+                        </div>
+                        <div class="">
+                            <span id="bookId" hidden>{{item.bookId}}</span>
+                            <label>书名</label>
+                            <span class="">{{item.bookName}}</span><br>
+                            <label>出版社</label>
+                            <span class="">{{ item.bookPress }}</span><br>
+                            <label>价格</label>
+                            <span class="">{{ item.price }}</span><br>
+                            <label>描述</label>
+                            <span class="">{{item.bookDescription }}</span>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+        <footer>
+            <p>&copy; 2018 - 罗卓群</p>
+        </footer>
+    </div>
+
+
+</div>
+
+
+<script>
+    //只能输入正整数过滤器
+    Vue.filter('onlyNumeric', {
+        // model -> view
+        // 在更新 `<input>` 元素之前格式化值
+        read: function (val) {
+            return val;
+        },
+        // view -> model
+        // 在写回数据之前格式化值
+        write: function (val, oldVal) {
+            var number = +val.replace(/[^\d]/g, '')
+            return isNaN(number) ? 1 : parseFloat(number.toFixed(2))
+        }
+    });
+    //模拟获取数据
+    var getData = function () {
+        var result = [];
+        for (var i = 0; i < 500; i++) {
+            result[i] = {name: 'test' + i, id: i, age: (Math.random() * 100).toFixed()};
+        }
+        return result;
+    }
+
+    var vue = new Vue({
+        el: "#app",
+        ready: function () {
+            this.arrayDataAll = getData();
+            this.totalCount = this.arrayDataAll.length;
+        },
+
+
+        data: {
+            bookList: [],
+            totalCount: 10,
+            //分页大小
+            pageSize: 5,
+        },
+        methods: {
+            doSearch: function () {
+                $.ajax({
+                    type: 'POST',
+                    url: "http://127.0.0.1:8081/book/getBooksBySearchKey",
+                    data: JSON.stringify({data: $("#search_box").val()}),
+                    dataType: "JSON",
+                    contentType: 'application/json;charset=utf-8',
+                    success: function (data) {
+                        console.log(data);
+                        vue.bookList = data;
+                        vue.totalCount = data.length;
+                        vue.pageSize = data.length / vue.pageSize + 1
+                    },
+                    error: function (jqXHR) {
+                        return "哎呀呀，出错了" + jqXHR.status;
+                    }
+                });
+            },
+
+            getOneBookInfo: function (item) {
+                var book = item;
+                showBookInfo(book);
+                document.getElementById("bookInfo").style.display = "";
+                document.getElementById("app").style.display = "none";
+                document.getElementById("slide-show").style.display = "none";
+                document.getElementById("comment").style.display = "";
+
+            },
+        }
+    })
+    vue.$watch("arrayData", function (value) {
+        console.log("==============arrayData begin==============");
+        console.log(value == vue.arrayData);
+        console.log(vue.arrayData);
+        console.log("==============arrayData end==============");
+    })
+</script>
+<script type="text/javascript" src="../js/bubbly-bg.js"></script>
+<script type="text/javascript">
+    bubbly();
+    let configs = [
+        {},
+        {
+            colorStart: "#111",
+            colorStop: "#422",
+            bubbleFunc: () = > `hsla(0, 100%, 50%, ${Math.random() * 0.25})`
+    },
+    {
+        colorStart: "#4c004c",
+            colorStop
+    :
+        "#1a001a",
+            bubbleFunc
+    :
+        () =
+    >
+        `hsla(${Math.random() * 360}, 100%, 50%, ${Math.random() * 0.25})`
+    }
+    ,
+    {
+        colorStart: "#fff4e6",
+            colorStop
+    :
+        "#ffe9e4",
+            blur
+    :
+        1,
+            compose
+    :
+        "source-over",
+            bubbleFunc
+    :
+        () =
+    >
+        `hsla(${Math.random() * 50}, 100%, 50%, .3)`
+    }
+    ]
+    ;
+    document.addEventListener("click", function (e) {
+        if (e.target.hasAttribute("data-config-nr")) {
+            document.body.removeChild(document.querySelector("canvas"));
+            bubbly(configs[e.target.getAttribute("data-config-nr")]);
+        }
+    });
+
+    (function () {
+
+        function init() {
+            var speed = 250,
+                easing = mina.easeinout;
+
+            [].slice.call(document.querySelectorAll('#grid > a')).forEach(function (el) {
+                var s = Snap(el.querySelector('svg')), path = s.select('path'),
+                    pathConfig = {
+                        from: path.attr('d'),
+                        to: el.getAttribute('data-path-hover')
+                    };
+
+                el.addEventListener('mouseenter', function () {
+                    path.animate({'path': pathConfig.to}, speed, easing);
+                });
+
+                el.addEventListener('mouseleave', function () {
+                    path.animate({'path': pathConfig.from}, speed, easing);
+                });
+            });
+        }
+
+        init();
+
+    })();
+</script>
+</body>
+</html>
