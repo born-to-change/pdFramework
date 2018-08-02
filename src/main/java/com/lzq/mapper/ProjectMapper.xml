@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lzq.mapper.ProjectMapper">
+    <resultMap id="Project" type="com.lzq.pojo.Project">
+        <result property="proId" column="pro_id"/>
+        <result property="userId" column="user_id"/>
+        <result property="proName" column="pro_name"/>
+        <result property="proTime" column="pro_time"/>
+        <result property="proDescription" column="pro_description"/>
+    </resultMap>
+
+    <insert id="createProject" parameterType="Project">
+        INSERT INTO project
+        (user_id,pro_name,pro_time,pro_description) VALUES
+        (#{userId},#{proName},#{proTime},#{proDescription})
+    </insert>
+
+    <select id="getProjectByProjectId" parameterType="Integer" resultMap="Project">
+        SELECT * FROM projrct
+        WHERE pro_id = #{proId}
+    </select>
+
+    <select id="getProjectsByUserId" parameterType="Integer" resultMap="Project">
+        SELECT * FROM projrct
+        WHERE user_id = #{userId}
+    </select>
+
+    <select id="getAllProjects" resultMap="Project">
+        SELECT * FROM projrct
+    </select>
+
+    <delete id="deleteProject" parameterType="Integer">
+        delete from project
+        where pro_id = #{proId}
+    </delete>
+</mapper>

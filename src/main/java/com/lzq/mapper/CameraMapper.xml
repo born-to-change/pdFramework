@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lzq.mapper.CameraMapper">
+    <resultMap id="Camera" type="com.lzq.pojo.Camera">
+        <result property="cameraId" column="camera_id"/>
+        <result property="videoImage" column="video_image"/>
+        <result property="cameraDescription" column="camera_description"/>
+        <result property="proId" column="pro_id"/>
+    </resultMap>
+    <insert id="createCamera" parameterType="Image">
+        INSERT INTO camera
+        (video_image,camera_description,pro_id) VALUES
+        (#{videoImage},#{cameraDescription},#{proId})
+    </insert>
+
+    <select id="getCamerasByProId" parameterType="Integer" resultMap="Camera">
+        SELECT * FROM camera
+        WHERE pro_id = #{proId}
+    </select>
+
+    <update id="updateCamera" parameterType="Camera">
+        UPDATE user
+        set video_image = #{videoImage},
+        camera_description = #{cameraDescription},
+        pro_id = #{pro_id}
+        WHERE camera_id = #{cameraId},
+    </update>
+
+    <delete id="deleteCamera" parameterType="Integer">
+        delete from image
+        where camera_id = #{cameraId}
+    </delete>
+</mapper>

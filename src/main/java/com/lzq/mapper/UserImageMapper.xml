@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.lzq.mapper.UserImageMapper">
+    <resultMap id="UserImage" type="com.lzq.pojo.UserImage">
+        <result property="userImageId" column="user_image_id"/>
+        <result property="userImageUrl" column="user_image_url"/>
+        <result property="proId" column="pro_id"/>
+    </resultMap>
+
+    <insert id="createUserImage" parameterType="UserImage">
+        INSERT INTO user_image
+        (user_image_id,user_image_url,pro_id) VALUES
+        (#{userImageId},#{userImageUrl},#{proId})
+    </insert>
+
+    <select id="getImagesByProjectId" parameterType="Integer" resultMap="UserImage">
+        SELECT * FROM user_image
+        WHERE pro_id = #{pro_id}
+    </select>
+
+    <delete id="deleteUserImage" parameterType="Integer">
+        delete from user_image
+        where user_image_id = #{userImageId}
+    </delete>
+</mapper>
