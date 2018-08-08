@@ -7,6 +7,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 
 @Slf4j
@@ -70,5 +72,17 @@ public class ProjectServiceImpl implements ProjectService {
             return null;
         }
         return projectList;
+    }
+    public ResultInfo.Result updateProject(Project project){
+        ResultInfo.Result ret = ResultInfo.Result.builder().isSuccess(true).build();
+        try {
+            projectMapper.updateProject(project);
+        } catch (Exception e) {
+            log.warn("update project failed", e);
+            ret.setSuccess(false);
+            ret.setErrorMessage(e.getMessage());
+            return ret;
+        }
+        return ret;
     }
 }

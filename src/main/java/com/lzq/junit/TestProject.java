@@ -20,12 +20,18 @@ public class TestProject {
         project.setProName("21wedas");
         project.setUserId(2);
         project.setProDescription("sadsdaq2e");
-        project.setProTime(new Timestamp(System.currentTimeMillis()));
         mapper.createProject(project);
     }
 
-//    public static void main(String args[]){
+    @Test
+    public void testGetProjectsByUserId(){
+        ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
+        ProjectMapper mapper = ac.getBean(ProjectMapper.class);
+        mapper.getProjectsByUserId(1);
+    }
+
+    public static void main(String args[]){
 //        SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");//设置日期格式
-//        System.out.println(df.format(new Date()));// new Date()为获取当前系统时间
-//    }
+        System.out.println(new Timestamp(System.currentTimeMillis()));// new Date()为获取当前系统时间
+    }
 }
