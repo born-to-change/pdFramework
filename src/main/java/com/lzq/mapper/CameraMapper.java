@@ -1,12 +1,12 @@
 package com.lzq.mapper;
 
-import com.lzq.pojo.Camera;
+import com.lzq.pojo.Cam;
 
 import java.util.List;
 
 public interface CameraMapper {
-    Boolean createCamera(Camera camera);
-    Boolean deleteCamera(Camera camera);
-    Camera updateCamera(Camera camera);
-    List<Camera> getCamerasByProId(Integer proId);
+    Boolean createCamera(Cam cam);
+    Boolean deleteCamera(Integer cameraId);
+    Cam updateCamera(Cam cam);
+    List<Cam> getCamerasByProId(Integer proId);
 }

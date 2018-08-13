@@ -1,10 +1,8 @@
 package com.lzq.mapper;
 
-import com.lzq.pojo.Camera;
+import com.lzq.pojo.Cam;
 import com.lzq.pojo.Video;
 import org.springframework.stereotype.Repository;
-
-import java.util.List;
 
 @Repository
 public interface VideoMapper {
@@ -12,7 +10,7 @@ public interface VideoMapper {
 
     boolean deleteVideo(Integer videoId);
 
-    Camera updateVideo(Video video);
+    Cam updateVideo(Video video);
 
     Video getVideoByCameraId(Integer cameraId);
 }

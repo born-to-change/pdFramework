@@ -1,33 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.lzq.mapper.CameraMapper">
-    <resultMap id="Camera" type="com.lzq.pojo.Camera">
+    <resultMap id="Cam" type="com.lzq.pojo.Cam">
         <result property="cameraId" column="camera_id"/>
         <result property="videoImage" column="video_image"/>
+        <result property="camName" column="cam_name"/>
+        <result property="camLng" column="cam_lng"/>
+        <result property="camLat" column="cam_lat"/>
         <result property="cameraDescription" column="camera_description"/>
         <result property="proId" column="pro_id"/>
     </resultMap>
-    <insert id="createCamera" parameterType="Image">
+    <insert id="createCamera" parameterType="Cam">
         INSERT INTO camera
-        (video_image,camera_description,pro_id) VALUES
-        (#{videoImage},#{cameraDescription},#{proId})
+        (video_image,cam_name,cam_lng,cam_lat,camera_description,pro_id) VALUES
+        (#{videoImage},#{camName},#{camLng},#{camLat},#{cameraDescription},#{proId})
     </insert>
 
-    <select id="getCamerasByProId" parameterType="Integer" resultMap="Camera">
+    <select id="getCamerasByProId" parameterType="Integer" resultMap="Cam">
         SELECT * FROM camera
         WHERE pro_id = #{proId}
     </select>
 
-    <update id="updateCamera" parameterType="Camera">
-        UPDATE user
+    <update id="updateCamera" parameterType="Cam">
+        UPDATE camera
         set video_image = #{videoImage},
+        cam_name = #{camName},
+        cam_lng = #{camLng},
+        cam_lat = #{camLat},
         camera_description = #{cameraDescription},
         pro_id = #{pro_id}
         WHERE camera_id = #{cameraId},
     </update>
 
     <delete id="deleteCamera" parameterType="Integer">
-        delete from image
+        delete from camera
         where camera_id = #{cameraId}
     </delete>
 </mapper>

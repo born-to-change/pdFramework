@@ -25,7 +25,7 @@
         where video_id = #{videoId}
     </delete>
 
-    <update id="updateVideo" parameterType="Camera">
+    <update id="updateVideo" parameterType="Cam">
         UPDATE user
         set video_url = #{videoImage},
         video_url = #{videoUrl},

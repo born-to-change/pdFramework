@@ -7,18 +7,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed7aef69-6690-440d-9990-3687d1c3c2c0" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/controller/FileController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestCam.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/FileMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/FileMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/pojo/File.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/service/CameraServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/service/FileService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/service/FileServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/controller/FileUploadController.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/controller/ProjectController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/controller/ProjectController.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/controller/CameraController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/controller/CameraController.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestProject.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestProject.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/ProjectMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/ProjectMapper.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/ProjectMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/ProjectMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/pojo/Project.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/pojo/Project.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/service/ProjectService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/service/ProjectService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/service/ProjectServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/service/ProjectServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestUser.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestUser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestVideo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/VideoMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/VideoMapper.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/VideoMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/VideoMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/pojo/Camera.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/pojo/Cam.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/service/CameraService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/service/CameraService.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/db.properties" afterPath="$PROJECT_DIR$/src/main/java/db.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/basic-plus.html" afterPath="$PROJECT_DIR$/src/main/webapp/view/basic-plus.html" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lzq/junit/TestUser.class" afterPath="$PROJECT_DIR$/target/classes/com/lzq/junit/TestUser.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/db.properties" afterPath="$PROJECT_DIR$/target/classes/db.properties" />
+      <change beforePath="$PROJECT_DIR$/target/graduation.war" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/graduation/WEB-INF/classes/com/lzq/controller/LetterController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/graduation/WEB-INF/classes/com/lzq/junit/JunitTestLetter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/graduation/WEB-INF/classes/com/lzq/junit/TestUser.class" afterPath="$PROJECT_DIR$/target/graduation/WEB-INF/classes/com/lzq/junit/TestUser.class" />
+      <change beforePath="$PROJECT_DIR$/target/graduation/WEB-INF/classes/com/lzq/mapper/LetterMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/graduation/WEB-INF/classes/com/lzq/mapper/LetterMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/graduation/WEB-INF/classes/com/lzq/pojo/Letter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/graduation/WEB-INF/classes/com/lzq/service/LetterService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/graduation/WEB-INF/classes/com/lzq/service/LetterServiceImpl.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/graduation/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/target/graduation/WEB-INF/classes/db.properties" />
+      <change beforePath="$PROJECT_DIR$/target/graduation/WEB-INF/lib/junit-jupiter-api-5.3.0-M1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/graduation/WEB-INF/lib/junit-platform-commons-1.3.0-M1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/graduation/index.html" afterPath="$PROJECT_DIR$/target/graduation/index.html" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,26 +62,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProjectController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/ProjectController.java">
+      <file leaf-file-name="FileMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/FileMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="89" column="59" lean-forward="true" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
+            <state relative-caret-position="51">
+              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/FileService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3282#3283#0" expanded="true" />
-                <element signature="e#3336#3337#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/ProjectService.java">
+      <file leaf-file-name="FileController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/FileController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="186">
+              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/FileServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,94 +141,35 @@
       <file leaf-file-name="ProjectServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/ProjectServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="1173">
               <caret line="78" column="34" lean-forward="false" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/ProjectMapper.java">
+      <file leaf-file-name="FileMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/FileMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/ProjectMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding>
-                <marker date="1533746516094" expanded="true" signature="621:759" ph="INSERT INTO project... " />
-                <marker date="1533746516094" expanded="true" signature="839:1022" ph="UPDATE user... " />
-                <marker date="1533746516094" expanded="true" signature="1130:1183" ph="SELECT * FRO... project" />
-                <marker date="1533746516094" expanded="true" signature="1289:1344" ph="SELECT * FRO... project" />
-                <marker date="1533746516094" expanded="true" signature="1421:1442" ph="SELECT * FRO... project" />
-                <marker date="1533746516094" expanded="true" signature="1522:1573" ph="delete from project... " />
+                <marker date="1534166846544" expanded="true" signature="619:671" ph="SELECT * FRO... image" />
+                <marker date="1534166846544" expanded="true" signature="619:691" ph="SELECT * FRO... file" />
+                <marker date="1534166846544" expanded="true" signature="792:864" ph="SELECT * FRO... file" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/UserMapper.java">
+      <file leaf-file-name="ProjectController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/ProjectController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="37" column="13" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="37" selection-end-column="13" />
-              <folding>
-                <marker date="1533078170095" expanded="true" signature="831:1050" ph="INSERT INTO user... " />
-                <marker date="1533078170095" expanded="true" signature="1145:1197" ph="SELECT * FRO... user" />
-                <marker date="1533078170095" expanded="true" signature="1272:1574" ph="UPDATE user... " />
-                <marker date="1533078170095" expanded="true" signature="1651:1695" ph="delete from user... " />
-                <marker date="1533078170095" expanded="true" signature="1796:1852" ph="SELECT * FRO... user" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="40" column="19" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="40" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/pojo/Project.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="611">
+              <caret line="73" column="4" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="61" column="42" lean-forward="false" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="42" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -159,8 +180,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -192,6 +213,8 @@
       <find>stream</find>
       <find>saveBookItem</find>
       <find>junit</find>
+      <find>lambda</find>
+      <find>Camera</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -216,22 +239,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/utils/IsbnUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/service/BookServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/custombookList.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/main.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/mock/searchByKey.json" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/nav.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/pojo/User.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/junit/JunitTestLetter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/junit/JunitTestBook.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/junit/JunitTestUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestUser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/common/ResultInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/service/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/pojo/userImage.java" />
@@ -240,10 +248,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/UserVideoMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/UserImageMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/UserVideoMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/pojo/Camera.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/VideoMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/service/VideoService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/VideoMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/service/VideoServiceImpl.java" />
@@ -259,14 +263,33 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/controller/FileUploadController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestProject.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/service/ProjectService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/ProjectMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/service/ProjectServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/pojo/Project.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/controller/ProjectController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/ProjectMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/pojo/Camera.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/service/CameraServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/service/CameraService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestVideo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestUser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/controller/Camera.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/VideoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestProject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestCam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/controller/CameraController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/pojo/file.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/fileMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/pojo/File.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/fileMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/service/FileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/FileMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/service/FileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/db.properties" />
       </list>
     </option>
   </component>
@@ -306,6 +329,11 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="graduation Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="graduation Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -313,10 +341,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="68" />
-    <option name="y" value="23" />
+    <option name="x" value="65" />
+    <option name="y" value="42" />
     <option name="width" value="1328" />
-    <option name="height" value="815" />
+    <option name="height" value="787" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -351,6 +379,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -409,25 +439,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lzq" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzq" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzq" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -436,12 +448,57 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jconsole.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jfxrt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jfxrt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javafx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="jfxrt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="javafx" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba:jconsole:1.8.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.alibaba:jconsole:1.8.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="jconsole.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -468,18 +525,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/img" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/images" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/lzq" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.lzq.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/img" />
       <recent name="$PROJECT_DIR$/src/main/webapp/js" />
       <recent name="$PROJECT_DIR$/src/main/webapp/css" />
       <recent name="$PROJECT_DIR$/src/main/webapp/image" />
       <recent name="$PROJECT_DIR$/src/main/webapp/view" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/img" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/images" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/lzq" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -501,25 +561,6 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="TestProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.lzq.junit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.lzq.junit.TestProject" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="graduation" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -533,6 +574,56 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="TestCam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lzq.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="graduation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lzq.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.lzq.junit.TestCam" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestCam.TestCreateCam" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lzq.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="graduation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lzq.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.lzq.junit.TestCam" />
+      <option name="METHOD_NAME" value="TestCreateCam" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration name="TestProject.testCreateProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -572,6 +663,31 @@
       <option name="PACKAGE_NAME" value="com.lzq.junit" />
       <option name="MAIN_CLASS_NAME" value="com.lzq.junit.TestProject" />
       <option name="METHOD_NAME" value="testGetProjectsByUserId" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestUser.TestLambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lzq.junit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="graduation" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lzq.junit" />
+      <option name="MAIN_CLASS_NAME" value="com.lzq.junit.TestUser" />
+      <option name="METHOD_NAME" value="TestLambda" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -716,6 +832,11 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="graduation:war exploded" />
+        </option>
+      </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
@@ -723,17 +844,21 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.run" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestProject.testCreateProject" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TestProject" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestProject.testGetProjectsByUserId" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestProject.testGetProjectsByUserId" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestUser.TestLambda" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestCam.TestCreateCam" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestCam" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestProject.testCreateProject" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestProject.testGetProjectsByUserId" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TestProject" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestProject.testCreateProject" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestCam.TestCreateCam" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestProject.testCreateProject" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestCam" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestUser.TestLambda" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestProject.testGetProjectsByUserId" />
       </list>
     </recent_temporary>
   </component>
@@ -778,7 +903,9 @@
       <workItem from="1533081639821" duration="62000" />
       <workItem from="1533081766313" duration="24559000" />
       <workItem from="1533375339972" duration="1524000" />
-      <workItem from="1533646724171" duration="18562000" />
+      <workItem from="1533646724171" duration="23479000" />
+      <workItem from="1533956296817" duration="1355000" />
+      <workItem from="1533958302731" duration="12532000" />
     </task>
     <task id="LOCAL-00001" summary="加解忧书信，首页样式更新">
       <created>1527870170550</created>
@@ -815,43 +942,50 @@
       <option name="project" value="LOCAL" />
       <updated>1533215401882</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="解决project接口bug">
+      <created>1533767958162</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1533767958162</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestProject_testCreateProject - 2018.08.01 at 15h 36m 16s.xml">
+    <history-entry file="TestCam - 2018.08.11 at 14h 27m 11s.xml">
+      <configuration name="TestCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCam - 2018.08.11 at 14h 27m 38s.xml">
+      <configuration name="TestCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCam - 2018.08.11 at 14h 30m 38s.xml">
+      <configuration name="TestCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCam - 2018.08.11 at 14h 31m 20s.xml">
+      <configuration name="TestCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCam_TestCreateCam - 2018.08.11 at 14h 24m 29s.xml">
+      <configuration name="TestCam.TestCreateCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCam_TestCreateCam - 2018.08.11 at 14h 25m 57s.xml">
+      <configuration name="TestCam.TestCreateCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestCam_TestCreateCam - 2018.08.11 at 14h 33m 10s.xml">
+      <configuration name="TestCam.TestCreateCam" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProject_testCreateProject - 2018.08.11 at 14h 32m 06s.xml">
       <configuration name="TestProject.testCreateProject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProject_testCreateProject - 2018.08.01 at 15h 37m 02s.xml">
+    <history-entry file="TestProject_testCreateProject - 2018.08.11 at 14h 32m 20s.xml">
       <configuration name="TestProject.testCreateProject" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProject_testCreateProject - 2018.08.07 at 21h 01m 56s.xml">
+    <history-entry file="TestProject_testCreateProject - 2018.08.11 at 14h 32m 51s.xml">
       <configuration name="TestProject.testCreateProject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestProject_testCreateProject - 2018.08.07 at 21h 15m 00s.xml">
-      <configuration name="TestProject.testCreateProject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestProject_testGetProjectsByUserId - 2018.08.07 at 21h 33m 52s.xml">
-      <configuration name="TestProject.testGetProjectsByUserId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUser_testCreateUser - 2018.08.01 at 07h 29m 13s.xml">
-      <configuration name="TestUser.testCreateUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUser_testCreateUser - 2018.08.01 at 08h 14m 27s.xml">
-      <configuration name="TestUser.testCreateUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUser_testDeleteUser - 2018.08.01 at 08h 13m 19s.xml">
-      <configuration name="TestUser.testDeleteUser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUser_testGetUserByUserName - 2018.08.01 at 08h 14m 32s.xml">
-      <configuration name="TestUser.testGetUserByUserName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestUser_testUpdateUser - 2018.08.01 at 08h 05m 15s.xml">
-      <configuration name="TestUser.testUpdateUser" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191682000" />
+    <option name="totallyTimeSpent" value="210486000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -863,31 +997,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="68" y="23" width="1328" height="815" extended-state="0" />
+    <frame x="65" y="42" width="1328" height="787" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3282967" sideWeight="0.5062208" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32635984" sideWeight="0.48755834" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18429238" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2527216" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37777779" sideWeight="0.7713841" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3150289" sideWeight="0.7713841" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32222223" sideWeight="0.566874" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2032967" sideWeight="0.49377915" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48953974" sideWeight="0.7923795" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1826923" sideWeight="0.46267498" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29768786" sideWeight="0.7923795" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41483516" sideWeight="0.7534992" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2488336" sideWeight="0.49284253" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17196532" sideWeight="0.7534992" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23872472" sideWeight="0.49284253" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24105754" sideWeight="0.50715744" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32658958" sideWeight="0.49380806" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -897,7 +1032,6 @@
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281471" sideWeight="0.49380806" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -959,19 +1093,25 @@
     <MESSAGE value="阿萨斯" />
     <MESSAGE value="&#10;是大势所趋群" />
     <MESSAGE value="加文件上传前端" />
-    <option name="LAST_COMMIT_MESSAGE" value="加文件上传前端" />
+    <MESSAGE value="解决project接口bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决project接口bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="100" />
+      <option name="time" value="108" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>camera</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>JSON.parseObject(pro, Project.class)</expression-string>
         <language-id>JAVA</language-id>
@@ -1012,131 +1152,55 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>keyMap</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/ImageService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/ImageServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="55" lean-forward="false" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        <state relative-caret-position="316">
+          <caret line="61" column="42" lean-forward="false" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/ImageMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/ImageMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/book.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/jquery-ui-demo-ie8.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/jquery.fileupload.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/web-forms.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="467" column="22" lean-forward="false" selection-start-line="467" selection-start-column="22" selection-end-line="467" selection-end-column="22" />
+        <state relative-caret-position="85">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/main.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-403">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="629">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <marker date="1533078170095" expanded="true" signature="831:1050" ph="INSERT INTO user... " />
+            <marker date="1533078170095" expanded="true" signature="1145:1197" ph="SELECT * FRO... user" />
+            <marker date="1533078170095" expanded="true" signature="1272:1574" ph="UPDATE user... " />
+            <marker date="1533078170095" expanded="true" signature="1651:1695" ph="delete from user... " />
+            <marker date="1533078170095" expanded="true" signature="1796:1852" ph="SELECT * FRO... user" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/cors/jquery.xdr-transport.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/ProjectMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <marker date="1533746516094" expanded="true" signature="621:759" ph="INSERT INTO project... " />
+            <marker date="1533746516094" expanded="true" signature="839:1022" ph="UPDATE user... " />
+            <marker date="1533746516094" expanded="true" signature="1130:1183" ph="SELECT * FRO... project" />
+            <marker date="1533746516094" expanded="true" signature="1289:1344" ph="SELECT * FRO... project" />
+            <marker date="1533746516094" expanded="true" signature="1421:1442" ph="SELECT * FRO... project" />
+            <marker date="1533746516094" expanded="true" signature="1522:1573" ph="delete from project... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/fileUpload.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.fileupload-video.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1500">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.fileupload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7719">
-          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/basic-plus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="87" column="2" lean-forward="false" selection-start-line="87" selection-start-column="2" selection-end-line="87" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.iframe-transport.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/mine.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1151,26 +1215,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.41/fastjson-1.2.41-sources.jar!/com/alibaba/fastjson/JSONArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/nav.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="425">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/index2.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="141" column="34" lean-forward="false" selection-start-line="141" selection-start-column="20" selection-end-line="141" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/leaveWords.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/pojo/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/CameraController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/ImageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/ImageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/junit/TestVideo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.3/testng-6.14.3.jar!/org/testng/collections/Maps.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="2896" column="18" lean-forward="false" selection-start-line="2896" selection-start-column="18" selection-end-line="2896" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/junit/TestUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/Camera.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1179,73 +1319,95 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/junit/JunitTestUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/type/TypeAliasRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/CameraServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/db.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/VideoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="23" column="25" lean-forward="false" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+          <folding>
+            <marker date="1533969030484" expanded="true" signature="685:858" ph="INSERT INTO video... " />
+            <marker date="1533969030484" expanded="true" signature="961:1017" ph="SELECT * FRO... video" />
+            <marker date="1533969030484" expanded="true" signature="1095:1148" ph="delete from video... " />
+            <marker date="1533969030484" expanded="true" signature="1222:1492" ph="UPDATE user... " />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/junit/TestVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/FileUploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/UserVideoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/VideoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/ImageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/UserVideoMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/VideoMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="34" column="37" lean-forward="false" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+          <folding>
+            <marker date="1533969030489" expanded="true" signature="727:910" ph="INSERT INTO camera... " />
+            <marker date="1533969030489" expanded="true" signature="1010:1062" ph="SELECT * FRO... camera" />
+            <marker date="1533969030489" expanded="true" signature="1137:1397" ph="UPDATE user... " />
+            <marker date="1533969030489" expanded="true" signature="1476:1532" ph="delete from image... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.4/mybatis-3.4.4.jar!/org/apache/ibatis/logging/jdbc/PreparedStatementLogger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/junit/TestProject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/junit/TestCam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1261,50 +1423,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/custombook_item.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/CameraService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.41/fastjson-1.2.41-sources.jar!/com/alibaba/fastjson/JSON.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/CameraController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="486" column="24" lean-forward="false" selection-start-line="486" selection-start-column="24" selection-end-line="486" selection-end-column="24" />
+        <state relative-caret-position="163">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
-            <element signature="e#18099#18100#0" expanded="false" />
-            <element signature="e#18162#18163#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/custombookList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="330" column="13" lean-forward="false" selection-start-line="330" selection-start-column="13" selection-end-line="330" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/junit/TestProject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/UserImageController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/ImageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1312,102 +1449,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.20/lombok-1.16.20-sources.jar!/lombok/Data.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/VideoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="45" column="18" lean-forward="false" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar!/com/google/gson/Gson.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="461" column="17" lean-forward="false" selection-start-line="461" selection-start-column="17" selection-end-line="461" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/pojo/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="40" column="19" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="40" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="61" column="42" lean-forward="false" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/ProjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/ProjectServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="78" column="34" lean-forward="false" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/ProjectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="89" column="59" lean-forward="true" selection-start-line="89" selection-start-column="59" selection-end-line="89" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3282#3283#0" expanded="true" />
-            <element signature="e#3336#3337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/pojo/Cam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="37" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/ImageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="11" />
           <folding>
-            <marker date="1533078170095" expanded="true" signature="831:1050" ph="INSERT INTO user... " />
-            <marker date="1533078170095" expanded="true" signature="1145:1197" ph="SELECT * FRO... user" />
-            <marker date="1533078170095" expanded="true" signature="1272:1574" ph="UPDATE user... " />
-            <marker date="1533078170095" expanded="true" signature="1651:1695" ph="delete from user... " />
-            <marker date="1533078170095" expanded="true" signature="1796:1852" ph="SELECT * FRO... user" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/ImageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="9" />
+          <folding>
+            <marker date="1533108970246" expanded="true" signature="599:720" ph="INSERT INTO image... " />
+            <marker date="1533108970246" expanded="true" signature="823:878" ph="SELECT * FRO... image" />
+            <marker date="1533108970246" expanded="true" signature="956:1009" ph="delete from image... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/pojo/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1420,18 +1513,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/ProjectMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/ProjectService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="119">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/ProjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="78" column="34" lean-forward="false" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/FileMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
           <folding>
-            <marker date="1533746516094" expanded="true" signature="621:759" ph="INSERT INTO project... " />
-            <marker date="1533746516094" expanded="true" signature="839:1022" ph="UPDATE user... " />
-            <marker date="1533746516094" expanded="true" signature="1130:1183" ph="SELECT * FRO... project" />
-            <marker date="1533746516094" expanded="true" signature="1289:1344" ph="SELECT * FRO... project" />
-            <marker date="1533746516094" expanded="true" signature="1421:1442" ph="SELECT * FRO... project" />
-            <marker date="1533746516094" expanded="true" signature="1522:1573" ph="delete from project... " />
+            <marker date="1534166846544" expanded="true" signature="619:671" ph="SELECT * FRO... image" />
+            <marker date="1534166846544" expanded="true" signature="619:691" ph="SELECT * FRO... file" />
+            <marker date="1534166846544" expanded="true" signature="792:864" ph="SELECT * FRO... file" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/FileMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/FileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="73" column="4" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
