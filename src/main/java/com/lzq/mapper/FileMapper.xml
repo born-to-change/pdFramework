@@ -11,17 +11,17 @@
 
     <select id="getVideosByUserId" parameterType="Integer" resultMap="File">
         SELECT * FROM file
-        WHERE user_id = #{userId} AND category_id = 3
+        WHERE user_id = #{userId} AND category_id = 2
     </select>
 
     <select id="getImagesByUserId" parameterType="Integer" resultMap="File">
         SELECT * FROM file
-        WHERE user_id = #{userId} AND category_id = 4
+        WHERE user_id = #{userId} AND category_id = 3
     </select>
 
     <select id="getFileByFileId" parameterType="Integer" resultMap="File">
         SELECT * FROM file
-        WHERE file_id = #{fileId}
+        WHERE id = #{fileId}
     </select>
 
 </mapper>
