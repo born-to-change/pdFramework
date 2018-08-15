@@ -32,4 +32,13 @@ public class FileController {
         Integer userId = Integer.parseInt(keyMap.get("userId"));
         return fileService.getVideosByUserId(userId);
     }
+
+    @CrossOrigin(origins = "*", maxAge = 3600)
+    @RequestMapping(value = "/getFileByFileId", method = RequestMethod.POST)
+    @ResponseBody
+    public File getFileByFileId(@RequestBody String data) {
+        Map<String,String> keyMap = JSON.parseObject(data, Map.class);
+        Integer fileId = Integer.parseInt(keyMap.get("fileId"));
+        return fileService.getFileByFileId(fileId);
+    }
 }

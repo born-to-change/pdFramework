@@ -35,4 +35,15 @@ public class FileServiceImpl implements FileService{
         }
         return fileList;
     }
+
+    public File getFileByFileId(Integer fileId){
+        File file;
+        try{
+            file = fileMapper.getFileByFileId(fileId);
+        }catch (Exception e) {
+            log.warn("get file by fileId failed", e);
+            return null;
+        }
+        return file;
+    }
 }

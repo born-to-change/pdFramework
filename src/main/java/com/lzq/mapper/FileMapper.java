@@ -10,4 +10,6 @@ public interface FileMapper {
     List<File> getImagesByUserId(Integer userId);
 
     List<File> getVideosByUserId(Integer userId);
+
+    File getFileByFileId(Integer fileId);
 }

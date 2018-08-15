@@ -19,4 +19,9 @@
         WHERE user_id = #{userId} AND category_id = 4
     </select>
 
+    <select id="getFileByFileId" parameterType="Integer" resultMap="File">
+        SELECT * FROM file
+        WHERE file_id = #{fileId}
+    </select>
+
 </mapper>
