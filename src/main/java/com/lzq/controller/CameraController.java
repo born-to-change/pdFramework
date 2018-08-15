@@ -20,7 +20,7 @@ public class CameraController {
     @CrossOrigin(origins = "*", maxAge = 3600)
     @RequestMapping(value = "/createCamera", method = RequestMethod.POST)
     @ResponseBody
-    public ResultInfo.Result createProject(@RequestBody String data) {
+    public ResultInfo.Result createCamera(@RequestBody String data) {
         Map<String, String> keyMap = JSON.parseObject(data, Map.class);
         Gson gson = new Gson();
         String cam = gson.toJson(keyMap.get("camera"));

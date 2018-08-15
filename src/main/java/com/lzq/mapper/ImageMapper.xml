@@ -3,25 +3,40 @@
 <mapper namespace="com.lzq.mapper.ImageMapper">
     <resultMap id="Image" type="com.lzq.pojo.Image">
         <result property="imageId" column="image_id"/>
-        <result property="videoId" column="video_id"/>
+        <result property="cameraId" column="camera_id"/>
         <result property="imageTime" column="image_time"/>
         <result property="tag" column="tag"/>
         <result property="imageUrl" column="image_url"/>
+        <result property="finalImageUrl" column="final_image_url"/>
+        <result property="searchImageUrl" column="search_image_url"/>
     </resultMap>
+
+    <update id="updateImage" parameterType="Image">
+        UPDATE image
+        set camera_id = #{cameraId},
+        image_time = #{imageTime},
+        tag = #{tag}
+        image_url = #{imageUrl}
+        final_image_url = #{finalImageUrl}
+        search_image_url = #{searchImageUrl}
+        WHERE image_id=#{imageId}
+    </update>
 
     <insert id="createImage" parameterType="Image">
         INSERT INTO image
-        (video_id,image_time,tag,image_url) VALUES
-        (#{videoId},#{imageTime},#{tag},#{imageUrl})
+        (camera_id,image_time,tag,image_url,final_image_url,search_image_url) VALUES
+        (#{cameraId},#{imageTime},#{tag},#{imageUrl},#{finalImageUrl},#{searchImageUrl})
     </insert>
 
-    <select id="getImagesByVideoId" parameterType="Integer" resultMap="Image">
+    <select id="getImagesByCameraId" parameterType="Integer" resultMap="Image">
         SELECT * FROM image
-        WHERE video_id = #{videoId}
+        WHERE camera_id = #{CameraId}
     </select>
 
     <delete id="deleteImage" parameterType="Integer">
         delete from image
         where image_id = #{imageId}
     </delete>
+
+
 </mapper>

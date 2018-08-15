@@ -4,6 +4,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
 
+import java.sql.Timestamp;
+
 @Data
 @NoArgsConstructor
 public class Cam {
@@ -20,5 +22,16 @@ public class Cam {
     private Double camLat;
     @NonNull
     private String camName;
+
+    @NonNull
+    private Timestamp videoTime;
+
+    private Timestamp startTime;
+    private Timestamp endTime;
+    @NonNull
+    private Integer bingingCameraId;
+    @NonNull
+    private String videoUrl;
+
 
 }

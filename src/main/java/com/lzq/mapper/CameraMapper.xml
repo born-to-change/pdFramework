@@ -9,11 +9,19 @@
         <result property="camLat" column="cam_lat"/>
         <result property="cameraDescription" column="camera_description"/>
         <result property="proId" column="pro_id"/>
+        <result property="videoTime" column="video_time"/>
+        <result property="startTime" column="start_time"/>
+        <result property="endTime" column="end_time"/>
+        <result property="bingingCameraId" column="binging_camera_id"/>
+        <result property="videoUrl" column="video_url"/>
     </resultMap>
+
     <insert id="createCamera" parameterType="Cam">
         INSERT INTO camera
-        (video_image,cam_name,cam_lng,cam_lat,camera_description,pro_id) VALUES
-        (#{videoImage},#{camName},#{camLng},#{camLat},#{cameraDescription},#{proId})
+        (video_image,cam_name,cam_lng,cam_lat,camera_description,pro_id,video_time,start_time,
+        end_time,binging_camera_id,video_url) VALUES
+        (#{videoImage},#{camName},#{camLng},#{camLat},#{cameraDescription},#{proId},
+        #{videoTime},#{startTime},#{endTime},#{bingingCameraId},#{videoUrl})
     </insert>
 
     <select id="getCamerasByProId" parameterType="Integer" resultMap="Cam">
@@ -28,7 +36,12 @@
         cam_lng = #{camLng},
         cam_lat = #{camLat},
         camera_description = #{cameraDescription},
-        pro_id = #{pro_id}
+        pro_id = #{proId},
+        video_time = #{videoTime},
+        start_time = #{startTime},
+        end_time = #{endTime},
+        binging_camera_id = #{bingingCameraId},
+        video_url = #{videoUrl},
         WHERE camera_id = #{cameraId},
     </update>
 

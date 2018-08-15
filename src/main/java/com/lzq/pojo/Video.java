@@ -13,10 +13,5 @@ public class Video {
     private Integer videoId;
     @NonNull
     private String videoImage;
-    private Timestamp startTime;
-    private Timestamp endTime;
-    private Integer bingingCameraId;
-    @NonNull
-    private String videoUrl;
 
 }

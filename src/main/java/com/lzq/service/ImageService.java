@@ -11,5 +11,7 @@ public interface ImageService {
 
     ResultInfo.Result deleteImage(Integer imageId);
 
-    List<Image> getImagesByVideoId(Integer videoId);
+    List<Image> getImagesByCameraId(Integer cameraId);
+
+    ResultInfo.Result updateImage(Image image);
 }

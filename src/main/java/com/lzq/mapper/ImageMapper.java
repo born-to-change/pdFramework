@@ -11,5 +11,7 @@ public interface ImageMapper {
 
     boolean deleteImage(Integer imageId);
 
-    List<Image> getImagesByVideoId(Integer videoId);
+    List<Image> getImagesByCameraId(Integer cameraId);
+
+    Image updateImage(Image image);
 }

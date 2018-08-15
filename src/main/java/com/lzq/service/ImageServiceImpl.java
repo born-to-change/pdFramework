@@ -43,14 +43,27 @@ public class ImageServiceImpl implements ImageService{
         return ret;
     }
 
-    public List<Image> getImagesByVideoId(Integer videoId){
+    public List<Image> getImagesByCameraId(Integer cameraId){
         List<Image> imageList;
         try{
-            imageList = imageMapper.getImagesByVideoId(videoId);
+            imageList = imageMapper.getImagesByCameraId(cameraId);
         }catch (Exception e) {
-            log.warn("get images by videoId failed", e);
+            log.warn("get images by cameraId failed", e);
             return null;
         }
         return imageList;
+    }
+    public ResultInfo.Result updateImage(Image image){
+        ResultInfo.Result ret = ResultInfo.Result.builder().isSuccess(true).build();
+        try {
+            imageMapper.updateImage(image);
+
+        } catch (Exception e) {
+            log.warn("update image failed", e);
+            ret.setSuccess(false);
+            ret.setErrorMessage(e.getMessage());
+            return ret;
+        }
+        return ret;
     }
 }

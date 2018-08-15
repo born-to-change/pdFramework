@@ -18,7 +18,7 @@ public class TestProject {
         ProjectMapper mapper = ac.getBean(ProjectMapper.class);
         Project project = new Project();
         project.setProName("21we");
-        project.setUserId(4);
+        project.setUserId(1);
         project.setProDescription("sadsdaq2e");
         mapper.createProject(project);
     }

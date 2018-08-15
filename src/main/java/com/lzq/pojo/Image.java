@@ -11,9 +11,11 @@ public class Image {
     @NonNull
     private Integer imageId;
     @NonNull
-    private Integer videoId;
+    private Integer cameraId;
     private Timestamp imageTime;
     private Integer tag;
     @NonNull
     private String imageUrl;
+    private String finalImageUrl;
+    private String searchImageUrl;
 }
