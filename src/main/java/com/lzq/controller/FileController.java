@@ -16,11 +16,11 @@ public class FileController {
     private FileService fileService;
 
     @CrossOrigin(origins = "*", maxAge = 3600)
-    @RequestMapping(value = "/getProjectsByUserId", method = RequestMethod.POST)
+    @RequestMapping(value = "/getImagesByUserId", method = RequestMethod.POST)
     @ResponseBody
     public List<File> getImagesByUserId(@RequestBody String data) {
-        Map<String,Integer> keyMap = JSON.parseObject(data, Map.class);
-        Integer userId = keyMap.get("userId");
+        Map<String,String> keyMap = JSON.parseObject(data, Map.class);
+        Integer userId = Integer.parseInt(keyMap.get("userId"));
         return fileService.getImagesByUserId(userId);
     }
 
@@ -28,8 +28,8 @@ public class FileController {
     @RequestMapping(value = "/getVideosByUserId", method = RequestMethod.POST)
     @ResponseBody
     public List<File> getVideosByUserId(@RequestBody String data) {
-        Map<String,Integer> keyMap = JSON.parseObject(data, Map.class);
-        Integer userId = keyMap.get("userId");
+        Map<String,String> keyMap = JSON.parseObject(data, Map.class);
+        Integer userId = Integer.parseInt(keyMap.get("userId"));
         return fileService.getVideosByUserId(userId);
     }
 }

@@ -55,7 +55,7 @@ public class TestUser {
 
     @Test
     public void TestLambda(){
-        List<Integer> list = Lists.newArrayList(1,21,32,3,6,4);
+//        List<Integer> list = Lists.newArrayList(1,21,32,3,6,4);
         String str = "dsdwjehwqjhhjweh";
         char[] a = str.toCharArray();
         List<Integer> strList = Lists.newArrayList();
@@ -76,9 +76,10 @@ public class TestUser {
             });
         });
 //        List filterList = list.stream().filter(it->it%2==0).collect(Collectors.toList());
+//        System.out.println(filterList);
 //
 //        List mapList = list.stream().filter(it->it%2==1).map(it->it*it).collect(Collectors.toList());
-//        System.out.println(a[0]);
+//        System.out.println(mapList);
 
     }
 

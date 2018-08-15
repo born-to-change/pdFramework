@@ -85,4 +85,15 @@ public class ProjectServiceImpl implements ProjectService {
         }
         return ret;
     }
+
+    public Project getProjectByProName(String proName){
+        Project project;
+        try{
+            project = projectMapper.getProjectByProName(proName);
+        }catch (Exception e) {
+            log.warn("get projects by proName failed", e);
+            return null;
+        }
+        return project;
+    }
 }

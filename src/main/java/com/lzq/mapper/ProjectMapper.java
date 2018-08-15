@@ -13,4 +13,5 @@ public interface ProjectMapper {
     Project getProjectByProjectId(Integer projectId);
     List<Project> getProjectsByUserId(Integer userId);
     List<Project> getAllProjects();
+    Project getProjectByProName(String proName);
 }

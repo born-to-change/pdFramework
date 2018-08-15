@@ -68,8 +68,8 @@ public class ProjectController {
     @RequestMapping(value = "/getProjectsByUserId", method = RequestMethod.POST)
     @ResponseBody
     public List<Project> getProjectsByUserId(@RequestBody String data) {
-        Map<String,Integer> keyMap = JSON.parseObject(data, Map.class);
-        Integer userId = keyMap.get("userId");
+        Map<String,String> keyMap = JSON.parseObject(data, Map.class);
+        Integer userId = Integer.parseInt(keyMap.get("userId"));
         return projectService.getProjectsByUserId(userId);
     }
 
@@ -89,5 +89,14 @@ public class ProjectController {
         String pro = gson.toJson(keyMap.get("project"));
         Project project= gson.fromJson(pro, Project.class);
         return projectService.updateProject(project);
+    }
+
+    @CrossOrigin(origins = "*", maxAge = 3600)
+    @RequestMapping(value = "/getProjectByProName", method = RequestMethod.POST)
+    @ResponseBody
+    public Project getProjectByProName(@RequestBody String data) {
+        Map<String, String> keyMap = JSON.parseObject(data, Map.class);
+        String proName = keyMap.get("proName");
+        return projectService.getProjectByProName(proName);
     }
 }

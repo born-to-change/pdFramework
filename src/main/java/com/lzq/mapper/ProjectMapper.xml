@@ -42,4 +42,9 @@
         delete from project
         where pro_id = #{proId}
     </delete>
+
+    <select id="getProjectByProName" resultMap="Project">
+         SELECT * FROM project
+        WHERE pro_name = #{proName}
+    </select>
 </mapper>

@@ -17,7 +17,7 @@ public class TestProject {
         ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
         ProjectMapper mapper = ac.getBean(ProjectMapper.class);
         Project project = new Project();
-        project.setProName("21wedas");
+        project.setProName("21we");
         project.setUserId(4);
         project.setProDescription("sadsdaq2e");
         mapper.createProject(project);
