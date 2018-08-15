@@ -29,7 +29,7 @@ public class Cam {
     private Timestamp startTime;
     private Timestamp endTime;
     @NonNull
-    private Integer bingingCameraId;
+    private Integer bingingFileId;
     @NonNull
     private String videoUrl;
 
