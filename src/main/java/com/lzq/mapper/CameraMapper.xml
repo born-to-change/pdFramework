@@ -29,6 +29,16 @@
         WHERE pro_id = #{proId}
     </select>
 
+    <select id="getCameraByCamName" parameterType="String" resultMap="Cam">
+        SELECT * FROM camera
+        WHERE cam_name = #{camName}
+    </select>
+
+    <select id="getCameraByCamId" parameterType="Integer" resultMap="Cam">
+        SELECT * FROM camera
+        WHERE camera_id = #{cameraId}
+    </select>
+
     <update id="updateCamera" parameterType="Cam">
         UPDATE camera
         set video_image = #{videoImage},

@@ -10,4 +10,6 @@ public interface CameraService {
     ResultInfo.Result deleteCamera(Integer cameraId);
     ResultInfo.Result updateCamera(Cam cam);
     List<Cam> getCamerasByProId(Integer proId);
+    Cam getCameraByCamId(Integer cameraId);
+    Cam getCameraByCamName(String camName);
 }

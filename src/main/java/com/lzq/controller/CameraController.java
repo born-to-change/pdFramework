@@ -46,6 +46,24 @@ public class CameraController {
     }
 
     @CrossOrigin(origins = "*", maxAge = 3600)
+    @RequestMapping(value = "/getCameraByCamId", method = RequestMethod.POST)
+    @ResponseBody
+    public Cam getCameraByCamId(@RequestBody String data) {
+        Map<String, Integer> keyMap = JSON.parseObject(data, Map.class);
+        Integer cameraId = keyMap.get("cameraId");
+        return cameraService.getCameraByCamId(cameraId);
+    }
+
+    @CrossOrigin(origins = "*", maxAge = 3600)
+    @RequestMapping(value = "/getCameraByCamName", method = RequestMethod.POST)
+    @ResponseBody
+    public Cam getCameraByCamName(@RequestBody String data) {
+        Map<String,String> keyMap = JSON.parseObject(data, Map.class);
+        String camName = keyMap.get("camName");
+        return cameraService.getCameraByCamName(camName);
+    }
+
+    @CrossOrigin(origins = "*", maxAge = 3600)
     @RequestMapping(value = "/updateCamera", method = RequestMethod.POST)
     @ResponseBody
     public ResultInfo.Result updateCamera(@RequestBody String data) {

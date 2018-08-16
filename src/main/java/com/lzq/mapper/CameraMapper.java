@@ -9,4 +9,6 @@ public interface CameraMapper {
     Boolean deleteCamera(Integer cameraId);
     Cam updateCamera(Cam cam);
     List<Cam> getCamerasByProId(Integer proId);
+    Cam getCameraByCamId(Integer cameraId);
+    Cam getCameraByCamName(String camName);
 }

@@ -54,6 +54,28 @@ public class CameraServiceImpl implements CameraService{
         return cams;
     }
 
+    public Cam getCameraByCamId(Integer cameraId){
+       Cam cam;
+        try{
+            cam = cameraMapper.getCameraByCamId(cameraId);
+        }catch (Exception e) {
+            log.warn("get cams by camId failed", e);
+            return null;
+        }
+        return cam;
+    }
+
+    public Cam getCameraByCamName(String camName){
+        Cam cam;
+        try{
+            cam = cameraMapper.getCameraByCamName(camName);
+        }catch (Exception e) {
+            log.warn("get cams by camName failed", e);
+            return null;
+        }
+        return cam;
+    }
+
     public ResultInfo.Result updateCamera(Cam cam){
         ResultInfo.Result ret = ResultInfo.Result.builder().isSuccess(true).build();
         try {
