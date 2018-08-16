@@ -11,4 +11,5 @@ public interface CameraMapper {
     List<Cam> getCamerasByProId(Integer proId);
     Cam getCameraByCamId(Integer cameraId);
     Cam getCameraByCamName(String camName);
+    Cam getCamByBingingFileId(Integer BingingFileId);
 }

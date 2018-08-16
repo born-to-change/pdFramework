@@ -64,6 +64,15 @@ public class CameraController {
     }
 
     @CrossOrigin(origins = "*", maxAge = 3600)
+    @RequestMapping(value = "/getCamByBingingFileId", method = RequestMethod.POST)
+    @ResponseBody
+    public Cam getCamByBingingFileId(@RequestBody String data) {
+        Map<String,Integer> keyMap = JSON.parseObject(data, Map.class);
+        Integer bingingFileId = keyMap.get("bingingFileId");
+        return cameraService.getCamByBingingFileId(bingingFileId);
+    }
+
+    @CrossOrigin(origins = "*", maxAge = 3600)
     @RequestMapping(value = "/updateCamera", method = RequestMethod.POST)
     @ResponseBody
     public ResultInfo.Result updateCamera(@RequestBody String data) {

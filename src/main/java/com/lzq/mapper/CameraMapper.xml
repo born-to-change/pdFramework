@@ -29,6 +29,11 @@
         WHERE pro_id = #{proId}
     </select>
 
+    <select id="getCamByBingingFileId" parameterType="Integer" resultMap="Cam">
+        SELECT * FROM camera
+        WHERE binging_file_id = #{bingingFileId}
+    </select>
+
     <select id="getCameraByCamName" parameterType="String" resultMap="Cam">
         SELECT * FROM camera
         WHERE cam_name = #{camName}

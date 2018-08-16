@@ -65,6 +65,17 @@ public class CameraServiceImpl implements CameraService{
         return cam;
     }
 
+    public Cam getCamByBingingFileId(Integer BingingFileId){
+        Cam cam;
+        try{
+            cam = cameraMapper.getCamByBingingFileId(BingingFileId);
+        }catch (Exception e) {
+            log.warn("get cams by BingingFileId failed", e);
+            return null;
+        }
+        return cam;
+    }
+
     public Cam getCameraByCamName(String camName){
         Cam cam;
         try{
