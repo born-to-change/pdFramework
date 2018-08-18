@@ -8,6 +8,8 @@ import com.lzq.service.FileService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import org.testng.collections.Lists;
+
 import java.util.List;
 import java.util.Map;
 
@@ -16,6 +18,7 @@ import java.util.Map;
 public class FileController {
     @Autowired
     private FileService fileService;
+    @Autowired
     private CameraService cameraService;
 
     @CrossOrigin(origins = "*", maxAge = 3600)
@@ -36,13 +39,15 @@ public class FileController {
         Integer proId = Integer.parseInt(keyMap.get("proId"));
         List<Cam> cams = cameraService.getCamerasByProId(proId);
         List<File> files =  fileService.getVideosByUserId(userId);
+        List temp = Lists.newArrayList();
         files.forEach(x->{
             cams.forEach(it->{
                 if(it.getBingingFileId().equals(x.getFileId())){
-                    files.remove(x);
+                    temp.add(x);
                 }
             });
         });
+        files.removeAll(temp);
         return files;
     }
 
@@ -50,8 +55,8 @@ public class FileController {
     @RequestMapping(value = "/getFileByFileId", method = RequestMethod.POST)
     @ResponseBody
     public File getFileByFileId(@RequestBody String data) {
-        Map<String,String> keyMap = JSON.parseObject(data, Map.class);
-        Integer fileId = Integer.parseInt(keyMap.get("fileId"));
+        Map<String,Integer> keyMap = JSON.parseObject(data, Map.class);
+        Integer fileId = keyMap.get("fileId");
         return fileService.getFileByFileId(fileId);
     }
 }

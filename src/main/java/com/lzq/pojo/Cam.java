@@ -26,8 +26,6 @@ public class Cam {
     @NonNull
     private Timestamp videoTime;
 
-    private Timestamp startTime;
-    private Timestamp endTime;
     @NonNull
     private Integer bingingFileId;
     @NonNull

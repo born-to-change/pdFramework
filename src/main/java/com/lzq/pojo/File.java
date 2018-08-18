@@ -8,7 +8,7 @@ import lombok.NonNull;
 @NoArgsConstructor
 public class File {
     @NonNull
-    private String fileId;
+    private Integer fileId;
     @NonNull
     private Integer userId;
     @NonNull

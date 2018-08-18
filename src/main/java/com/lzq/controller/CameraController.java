@@ -1,6 +1,7 @@
 package com.lzq.controller;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.google.gson.Gson;
 import com.lzq.common.ResultInfo;
 import com.lzq.pojo.Cam;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 @Controller
 @RequestMapping("/camera")
@@ -40,8 +42,8 @@ public class CameraController {
     @RequestMapping(value = "/getCamerasByProId", method = RequestMethod.POST)
     @ResponseBody
     public List<Cam> getCamerasByProId(@RequestBody String data) {
-        Map<String, Integer> keyMap = JSON.parseObject(data, Map.class);
-        Integer proId = keyMap.get("proId");
+        Map<String, String> keyMap = JSON.parseObject(data, Map.class);
+        Integer proId = Integer.parseInt(keyMap.get("proId"));
         return cameraService.getCamerasByProId(proId);
     }
 
@@ -69,7 +71,8 @@ public class CameraController {
     public Cam getCamByBingingFileId(@RequestBody String data) {
         Map<String,Integer> keyMap = JSON.parseObject(data, Map.class);
         Integer bingingFileId = keyMap.get("bingingFileId");
-        return cameraService.getCamByBingingFileId(bingingFileId);
+        Integer proId = keyMap.get("proId");
+        return cameraService.getCamByBingingFileId(proId,bingingFileId);
     }
 
     @CrossOrigin(origins = "*", maxAge = 3600)
@@ -79,7 +82,7 @@ public class CameraController {
         Map<String, String> keyMap = JSON.parseObject(data, Map.class);
         Gson gson = new Gson();
         String cam = gson.toJson(keyMap.get("camera"));
-        Cam camera= gson.fromJson(cam,Cam.class);
+        Cam camera= JSONObject.parseObject(cam,Cam.class);
         return cameraService.updateCamera(camera);
     }
 }

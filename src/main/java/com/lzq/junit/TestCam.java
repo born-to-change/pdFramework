@@ -22,4 +22,11 @@ public class TestCam {
         mapper.createCamera(cam);
     }
 
+    @Test
+    public void test(){
+        ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
+        CameraMapper mapper = ac.getBean(CameraMapper.class);
+        mapper.getCamByBingingFileId(1,4);
+    }
+
 }
