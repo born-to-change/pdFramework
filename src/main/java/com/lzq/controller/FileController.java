@@ -10,6 +10,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.testng.collections.Lists;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 
@@ -27,7 +29,13 @@ public class FileController {
     public List<File> getImagesByUserId(@RequestBody String data) {
         Map<String,String> keyMap = JSON.parseObject(data, Map.class);
         Integer userId = Integer.parseInt(keyMap.get("userId"));
-        return fileService.getImagesByUserId(userId);
+        List<File> fileList = fileService.getImagesByUserId(userId);
+//        List<String> imgUrlList = Lists.newArrayList();
+        for(File file : fileList){
+            String[] item = file.getFileUrl().split("files");
+            file.setFileUrl("http://172.18.32.192:8082/file"+item[item.length-1]);
+        }
+        return fileList;
     }
 
     @CrossOrigin(origins = "*", maxAge = 3600)

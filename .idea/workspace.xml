@@ -6,18 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed7aef69-6690-440d-9990-3687d1c3c2c0" name="Default" comment="">
+    <list default="true" id="ed7aef69-6690-440d-9990-3687d1c3c2c0" name="Default" comment="yizhi">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/controller/CameraController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/controller/CameraController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/controller/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestCam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestCam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/pojo/Cam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/pojo/Cam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/pojo/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/pojo/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/service/CameraService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/service/CameraService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lzq/service/CameraServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lzq/service/CameraServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/graduation/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduation/META-INF/MANIFEST.MF" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,29 +33,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="376" />
-          <entry key="txt" value="12" />
-          <entry key="xml" value="99" />
+          <entry key="java" value="757" />
+          <entry key="txt" value="22" />
+          <entry key="xml" value="173" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="376" />
-          <entry key="PLAIN_TEXT" value="12" />
-          <entry key="XML" value="99" />
+          <entry key="JAVA" value="757" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="171" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="8" />
-          <entry key="java" value="17" />
+          <entry key="java" value="21" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="8" />
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="21" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -71,28 +65,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/CameraService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/junit/TestCam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/CameraController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="630">
+              <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/FileController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -116,10 +104,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/ProjectMapper.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/pojo/Cam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/pojo/Image.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/ImageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -136,11 +142,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="165">
+              <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -258,15 +264,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/service/FileServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/FileMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/pojo/File.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/controller/FileController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/pojo/Cam.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/service/CameraService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/service/CameraServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/controller/CameraController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/junit/TestCam.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lzq/controller/MarkController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/pojo/Cam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lzq/controller/FileController.java" />
       </list>
     </option>
   </component>
@@ -318,8 +324,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="218" />
-    <option name="y" value="66" />
+    <option name="x" value="277" />
+    <option name="y" value="45" />
     <option name="width" value="1478" />
     <option name="height" value="949" />
   </component>
@@ -390,33 +396,6 @@
             </path>
             <path>
               <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzq" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzq" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pdFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lzq" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pdFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -469,7 +448,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/user/Desktop/pdFramework/src/main/java/com/lzq/mapper/ProjectMapper.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534580259676" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535423470750" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Project" />
@@ -785,7 +764,7 @@
       <workItem from="1533958302731" duration="23990000" />
       <workItem from="1534336758400" duration="2712000" />
       <workItem from="1534382955263" duration="2797000" />
-      <workItem from="1534386152895" duration="15777000" />
+      <workItem from="1534386152895" duration="26632000" />
     </task>
     <task id="LOCAL-00001" summary="加解忧书信，首页样式更新">
       <created>1527870170550</created>
@@ -864,7 +843,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534384749166</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="yizhi">
+      <created>1534581713925</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1534581713925</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -900,7 +886,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243230000" />
+    <option name="totallyTimeSpent" value="254085000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -912,10 +898,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="218" y="66" width="1478" height="949" extended-state="0" />
+    <frame x="277" y="45" width="1478" height="949" extended-state="1" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49284253" visible="true" weight="0.2804196" />
-      <window_info id="Structure" order="1" weight="0.2527216" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49284253" weight="0.2804196" />
+      <window_info id="Structure" order="1" visible="true" weight="0.25244755" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -925,7 +911,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49380806" weight="0.32658958" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7923795" weight="0.31322208" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.7713841" visible="true" weight="0.2902439" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.7713841" visible="true" weight="0.4585366" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32889965" />
@@ -1015,7 +1001,8 @@
     <MESSAGE value="整改接口，去调Video" />
     <MESSAGE value="update" />
     <MESSAGE value="更新camera接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新camera接口" />
+    <MESSAGE value="yizhi" />
+    <option name="LAST_COMMIT_MESSAGE" value="yizhi" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -1142,13 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/pojo/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="19" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/VideoService.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/VideoServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/VideoMapper.java" />
@@ -1187,13 +1167,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" column="47" lean-forward="true" selection-start-line="10" selection-end-line="15" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/ImageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1256,16 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/FileController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.41/fastjson-1.2.41.jar!/com/alibaba/fastjson/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-495">
@@ -1294,41 +1257,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/pojo/Cam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/ProjectMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/CameraService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="14" column="67" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/CameraServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="99" column="24" lean-forward="true" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1356,17 +1288,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/CameraController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/pojo/Image.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        <state relative-caret-position="195">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/CameraMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="165">
+          <caret line="11" column="58" lean-forward="true" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/pojo/Cam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/mapper/ProjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/service/CameraServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="99" column="24" lean-forward="true" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/CameraController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="54" column="50" lean-forward="true" selection-start-line="54" selection-start-column="50" selection-end-line="54" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/ImageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lzq/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

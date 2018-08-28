@@ -30,6 +30,10 @@ public class Cam {
     private Integer bingingFileId;
     @NonNull
     private String videoUrl;
+    @NonNull
+    private Integer status;
+    @NonNull
+    private Integer isProcess;
 
 
 }
