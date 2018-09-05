@@ -26,6 +26,7 @@ public class FileController {
     @CrossOrigin(origins = "*", maxAge = 3600)
     @RequestMapping(value = "/getImagesByUserId", method = RequestMethod.POST)
     @ResponseBody
+
     public List<File> getImagesByUserId(@RequestBody String data) {
         Map<String,String> keyMap = JSON.parseObject(data, Map.class);
         Integer userId = Integer.parseInt(keyMap.get("userId"));
