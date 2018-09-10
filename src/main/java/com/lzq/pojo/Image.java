@@ -14,6 +14,7 @@ public class Image {
     private Integer cameraId;
     private Timestamp imageTime;
     private Integer tag;
+
     @NonNull
     private String imageUrl;
     private String finalImageUrl;

@@ -11,6 +11,7 @@ import java.sql.Timestamp;
 public class Cam {
     @NonNull
     private Integer cameraId;
+
     @NonNull
     private String videoImage;
     private String cameraDescription;
@@ -30,8 +31,17 @@ public class Cam {
     private Integer bingingFileId;
     @NonNull
     private String videoUrl;
+
+
     @NonNull
+    //0 unprocess 1 finish 2 pause
     private Integer status;
+
+    private String selectImageUrl;
+
+    private int processNum;
+
+    //is show process bar
     @NonNull
     private Integer isProcess;
 

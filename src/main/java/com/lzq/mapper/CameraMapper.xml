@@ -7,6 +7,8 @@
         <result property="camName" column="cam_name"/>
         <result property="camLng" column="cam_lng"/>
         <result property="camLat" column="cam_lat"/>
+        <result property="processNum" column="process_num"/>
+        <result property="selectImageUrl" column="select_image_url"/>
         <result property="cameraDescription" column="camera_description"/>
         <result property="proId" column="pro_id"/>
         <result property="videoTime" column="video_time"/>
@@ -18,9 +20,9 @@
 
     <insert id="createCamera" parameterType="Cam">
         INSERT INTO camera
-        (video_image,cam_name,cam_lng,cam_lat,camera_description,pro_id,video_time,
+        (video_image,cam_name,cam_lng,cam_lat,process_num,select_image_url,camera_description,pro_id,video_time,
         binging_file_id,video_url,status,is_process) VALUES
-        (#{videoImage},#{camName},#{camLng},#{camLat},#{cameraDescription},#{proId},
+        (#{videoImage},#{camName},#{camLng},#{camLat},#{process_num},#{select_image_url},#{cameraDescription},#{proId},
         #{videoTime},#{bingingFileId},#{videoUrl},#{status},#{isProcess})
     </insert>
     <select id="getCamByBingingFileId" resultMap="Cam">
@@ -49,6 +51,8 @@
         cam_name = #{camName},
         cam_lng = #{camLng},
         cam_lat = #{camLat},
+        process_num = #{processNum},
+        select_image_url = #{selectImageUrl},++++++++
         camera_description = #{cameraDescription},
         pro_id = #{proId},
         video_time = #{videoTime},

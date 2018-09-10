@@ -27,6 +27,8 @@ public class CameraController {
         Gson gson = new Gson();
         String cam = gson.toJson(keyMap.get("camera"));
         Cam camera= gson.fromJson(cam,Cam.class);
+        camera.setIsProcess(0);
+        camera.setStatus(0);
         return cameraService.createCamera(camera);
     }
     @CrossOrigin(origins = "*", maxAge = 3600)
