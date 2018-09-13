@@ -9,23 +9,31 @@
         <result property="imageUrl" column="image_url"/>
         <result property="finalImageUrl" column="final_image_url"/>
         <result property="searchImageUrl" column="search_image_url"/>
+        <result property="proId" column="pro_id"/>
+        <result property="camName" column="cam_name"/>
+        <result property="camLng" column="cam_lng"/>
+        <result property="camLat" column="cam_lat"/>
     </resultMap>
 
     <update id="updateImage" parameterType="Image">
         UPDATE image
-        set camera_id = #{cameraId},
+        set
         image_time = #{imageTime},
-        tag = #{tag}
-        image_url = #{imageUrl}
-        final_image_url = #{finalImageUrl}
-        search_image_url = #{searchImageUrl}
-        WHERE image_id=#{imageId}
+        tag = #{tag},
+        image_url = #{imageUrl},
+        finalimage_url = #{finalImageUrl},
+        searchimage_url = #{searchImageUrl},
+        pro_id = #{proId},
+        cam_name = #{camName},
+        cam_lng = #{camLng},
+        cam_lat = #{camLat}
+        WHERE camera_id = #{cameraId}
     </update>
 
     <insert id="createImage" parameterType="Image">
         INSERT INTO image
-        (camera_id,image_time,tag,image_url,final_image_url,search_image_url) VALUES
-        (#{cameraId},#{imageTime},#{tag},#{imageUrl},#{finalImageUrl},#{searchImageUrl})
+        (camera_id,image_time,tag,image_url,finalimage_url,searchimage_url,pro_id,cam_name,cam_lng,cam_lat) VALUES
+        (#{cameraId},#{imageTime},#{tag},#{imageUrl},#{finalImageUrl},#{searchImageUrl}, #{proId}, #{camName} ,#{camLng}, #{camLat})
     </insert>
 
     <select id="getImagesByCameraId" parameterType="Integer" resultMap="Image">
@@ -35,7 +43,7 @@
 
     <delete id="deleteImage" parameterType="Integer">
         delete from image
-        where image_id = #{imageId}
+        where image_id=#{imageId}
     </delete>
 
 

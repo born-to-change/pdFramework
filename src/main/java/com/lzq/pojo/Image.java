@@ -8,15 +8,28 @@ import java.sql.Timestamp;
 @Data
 @NoArgsConstructor
 public class Image {
-    @NonNull
+
     private Integer imageId;
     @NonNull
     private Integer cameraId;
+    @NonNull
+    private Integer proId;
+    @NonNull
+    private String camName;
+    @NonNull
+    private Double camLng;
+    @NonNull
+    private Double camLat;
+    @NonNull
+    private String imageUrl;
+
+
     private Timestamp imageTime;
     private Integer tag;
 
-    @NonNull
-    private String imageUrl;
+
+
+
     private String finalImageUrl;
     private String searchImageUrl;
 }

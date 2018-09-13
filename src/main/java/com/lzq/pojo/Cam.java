@@ -32,6 +32,8 @@ public class Cam {
     @NonNull
     private String videoUrl;
 
+    private Integer isSelectImg;
+
 
     @NonNull
     //0 unprocess 1 finish 2 pause

@@ -24,10 +24,11 @@ public class ImageController {
     @RequestMapping(value = "/createImage", method = RequestMethod.POST)
     @ResponseBody
     public ResultInfo.Result createImage(@RequestBody String data) {
-        Map<String, String> keyMap = JSON.parseObject(data, Map.class);
-        Gson gson = new Gson();
-        String img = gson.toJson(keyMap.get("image"));
-        Image image = gson.fromJson(img,Image.class);
+        Image image = JSON.parseObject(data,Image.class);
+//        Map<String, String> keyMap = JSON.parseObject(data, Map.class);
+//        Gson gson = new Gson();
+//        String img = gson.toJson(keyMap.get("image"));
+//        Image image = gson.fromJson(img,Image.class);
         return imageService.createImage(image);
     }
 
@@ -53,10 +54,11 @@ public class ImageController {
     @RequestMapping(value = "/updateImage", method = RequestMethod.POST)
     @ResponseBody
     public ResultInfo.Result updateImage(@RequestBody String data) {
-        Map<String, String> keyMap = JSON.parseObject(data, Map.class);
-        Gson gson = new Gson();
-        String img = gson.toJson(keyMap.get("image"));
-        Image image= gson.fromJson(img,Image.class);
+        Image image = JSON.parseObject(data,Image.class);
+//        Map<String, String> keyMap = JSON.parseObject(data, Map.class);
+//        Gson gson = new Gson();
+//        String img = gson.toJson(keyMap.get("image"));
+//        Image image= gson.fromJson(img,Image.class);
         return imageService.updateImage(image);
     }
 }

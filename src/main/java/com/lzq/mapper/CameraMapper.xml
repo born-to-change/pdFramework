@@ -16,14 +16,15 @@
         <result property="videoUrl" column="video_url"/>
         <result property="status" column="status"/>
         <result property="isProcess" column="is_process"/>
+        <result property="isSelectImg" column="is_select_img"/>
     </resultMap>
 
     <insert id="createCamera" parameterType="Cam">
         INSERT INTO camera
         (video_image,cam_name,cam_lng,cam_lat,process_num,select_image_url,camera_description,pro_id,video_time,
-        binging_file_id,video_url,status,is_process) VALUES
+        binging_file_id,video_url,status,is_process,is_select_img) VALUES
         (#{videoImage},#{camName},#{camLng},#{camLat},#{process_num},#{select_image_url},#{cameraDescription},#{proId},
-        #{videoTime},#{bingingFileId},#{videoUrl},#{status},#{isProcess})
+        #{videoTime},#{bingingFileId},#{videoUrl},#{status},#{isProcess},#{isSelectImg})
     </insert>
     <select id="getCamByBingingFileId" resultMap="Cam">
         SELECT * FROM camera
@@ -52,14 +53,15 @@
         cam_lng = #{camLng},
         cam_lat = #{camLat},
         process_num = #{processNum},
-        select_image_url = #{selectImageUrl},++++++++
+        select_image_url = #{selectImageUrl},
         camera_description = #{cameraDescription},
         pro_id = #{proId},
         video_time = #{videoTime},
         binging_file_id = #{bingingFileId},
         video_url = #{videoUrl},
         status = #{status},
-        is_process = #{isProcess}
+        is_process = #{isProcess},
+        is_select_img = #{isSelectImg}
         WHERE camera_id = #{cameraId}
     </update>
 

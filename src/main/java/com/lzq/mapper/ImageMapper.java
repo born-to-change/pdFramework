@@ -13,5 +13,5 @@ public interface ImageMapper {
 
     List<Image> getImagesByCameraId(Integer cameraId);
 
-    Image updateImage(Image image);
+    boolean updateImage(Image image);
 }
