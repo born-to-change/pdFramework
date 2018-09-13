@@ -14,4 +14,6 @@ public interface ImageMapper {
     List<Image> getImagesByCameraId(Integer cameraId);
 
     boolean updateImage(Image image);
+
+    List<Image> getImagesByProId(Integer proId);
 }

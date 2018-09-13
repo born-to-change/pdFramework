@@ -41,6 +41,12 @@
         WHERE camera_id = #{CameraId}
     </select>
 
+
+    <select id="getImagesByProId" parameterType="Integer" resultMap="Image">
+        SELECT * FROM image
+        WHERE pro_id = #{proId}
+    </select>
+
     <delete id="deleteImage" parameterType="Integer">
         delete from image
         where image_id=#{imageId}

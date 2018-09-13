@@ -61,4 +61,13 @@ public class ImageController {
 //        Image image= gson.fromJson(img,Image.class);
         return imageService.updateImage(image);
     }
+
+    @CrossOrigin(origins = "*", maxAge = 3600)
+    @RequestMapping(value = "/getImagesByProId", method = RequestMethod.POST)
+    @ResponseBody
+    public List<Image> getImagesByProId(@RequestBody String data) {
+        Map<String, Integer> keyMap = JSON.parseObject(data, Map.class);
+        Integer proId = keyMap.get("proId");
+        return imageService.getImagesByProId(proId);
+    }
 }

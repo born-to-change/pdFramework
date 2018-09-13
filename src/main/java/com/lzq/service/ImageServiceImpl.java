@@ -66,4 +66,17 @@ public class ImageServiceImpl implements ImageService{
         }
         return ret;
     }
+
+    public List<Image> getImagesByProId(Integer proId){
+        List<Image> imageList;
+        try{
+            imageList = imageMapper.getImagesByProId(proId);
+        }catch (Exception e) {
+            log.warn("get images by proId failed", e);
+            return null;
+        }
+        return imageList;
+    }
+
+
 }

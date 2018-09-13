@@ -14,4 +14,6 @@ public interface ImageService {
     List<Image> getImagesByCameraId(Integer cameraId);
 
     ResultInfo.Result updateImage(Image image);
+
+    List<Image> getImagesByProId(Integer proId);
 }
